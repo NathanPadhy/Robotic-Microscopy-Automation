@@ -59,7 +59,7 @@ Return to the Identified Storage Location
 ### Pick-and-Place Demonstration
 
 <p align="center">
-  <!-- <img src="media/openyam-pick-and-place.gif" alt="OpenYAM robotic pick-and-place setup transferring samples between storage and the microscope" width="750"/> -->
+  <!-- <img src="media/PnP_demo.gif" alt="OpenYAM robotic pick-and-place setup transferring samples between storage and the microscope" width="750"/> -->
   <em>GIF placeholder: OpenYAM pick-and-place setup.</em>
 </p>
 
