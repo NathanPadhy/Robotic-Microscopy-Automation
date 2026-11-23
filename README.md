@@ -76,14 +76,14 @@ This model is intended to support the selection of suitable flakes during micros
 
 <p align="center">
    <img src="media/annotated.png" alt="Manually annotated RGB microscopy image showing graphene flake thickness categories and debris" width="500"/> 
-  <em>Image placeholder: manually annotated flakes, thickness categories, and debris.</em>
+
 </p>
 
 ### Model Predictions
 
 <p align="center">
  <img src="media/annotated_closeup.png" alt="YOLO11 model predictions for graphene flakes, thickness categories, and debris" width="500"/> 
-  <em>Image placeholder: model predictions, to be added after training and evaluation.</em>
+
 </p>
 
 ---
