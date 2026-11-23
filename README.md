@@ -59,7 +59,7 @@ Return to the Identified Storage Location
 ### Pick-and-Place Demonstration
 
 <p align="center">
-  <img src="media/PnP_demo.gif" alt="OpenYAM robotic pick-and-place demonstration" width="750"/>
+  <img src="media/shortened-ezgif.com-optimize.gif" alt="OpenYAM robotic pick-and-place demonstration" width="750"/>
 </p>
 
 ---
