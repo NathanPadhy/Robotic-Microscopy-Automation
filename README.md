@@ -2,6 +2,8 @@
 
 Modular sample storage, robotic microscope loading, and vision-based graphene flake identification for graphene and hexagonal boron nitride (hBN) research.
 
+This project is part of my research in the Lu Lab, led by Dr. Zhengguang Lu, in the Department of physics at Florida State University.
+
 ---
 
 ## System Design
@@ -32,13 +34,13 @@ The design brings together:
 
 The planned setup uses an [Anvil OpenYAM](https://shop.anvil.bot/products/openyam) robotic arm for **vision-guided picking and placing** between the tray storage system and the microscope stage.
 
-I am currently designing the arm algorithms and motion planning for this workflow. The goal is to replace repeated manual sample transfers with an organized sequence of automated microscope loading and unloading operations.
+Working with other members of the Lu Lab, I am designing robotic arm motion-planning and sample-handling algorithms to automate sample transfers between modular trays and the microscope stage.
 
 ### Tray Identification and Visual Localization
 
 QR codes will identify individual trays and associate them with their stored samples and locations. Camera images will also be used to estimate the positions of the trays and relevant pickup and placement locations.
 
-The planned vision workflow combines **QR-based identification** with **pixel-level spatial localization**. Image coordinates will need to be mapped into the robot's coordinate frame through camera-to-robot calibration to guide the arm's motions. QR identity provides the organizational reference; visual localization provides the spatial information for picking and placing.
+The planned vision workflow combines QR-based identification with pixel-level spatial localization. Image coordinates will need to be mapped into the robot's coordinate frame through camera-to-robot calibration to guide the arm's motions. QR identity provides the organizational reference; visual localization provides the spatial information for picking and placing.
 
 The intended workflow is:
 
@@ -70,8 +72,7 @@ Alongside the handling system, I have manually annotated **RGB microscopy images
 
 The annotations identify graphene flakes across different thickness categories and distinguish them from debris. The intended model will use these labels to detect candidate flakes and predict their annotated thickness categories from their appearance in microscope images.
 
-This model is intended to support the selection of suitable flakes during microscope image review. It is a separate vision task from the camera-based localization used to guide the robotic arm.
-
+This model is intended to support the selection of suitable flakes during microscope image review.
 ### Manual Annotations
 
 <p align="center">
@@ -88,23 +89,6 @@ This model is intended to support the selection of suitable flakes during micros
 
 ---
 
-## Current Development
 
-| Component | Status |
-| --- | --- |
-| Four-chip trays and modular holders | CAD developed |
-| Robotic arm algorithms and motion planning | In design |
-| QR-based tray identification and visual localization | Planned |
-| RGB microscopy dataset | Manual annotations created |
-| YOLO11 flake and thickness-category detection | Training and evaluation planned |
-
----
-
-## Hardware and Tools
-
-- **Mechanical design:** CAD for four-chip trays and modular holders
-- **Robotics:** Anvil OpenYAM
-- **Tray organization:** QR codes
-- **Microscopy vision:** RGB images, manual annotations, Ultralytics YOLO11
 
 <!-- Media setup: add the referenced files under media/, uncomment each img element, and remove its placeholder caption. -->
