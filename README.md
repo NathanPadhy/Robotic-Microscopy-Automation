@@ -23,10 +23,10 @@ The design brings together:
 
 ### Tray and Holder CAD
 
-| Full Assembly | Optics-Table Base | Stacked Holders |
+| Optics-Table Base | Stacked Holders | Full Assembly |
 | :---: | :---: | :---: |
-| <img src="media/render1.png" alt="Complete tray and holder assembly" width="250"/> | <img src="media/render2.png" alt="Optics-table mounting base" width="250"/> | <img src="media/render3.png" alt="Stacked holders without trays or samples" width="250"/> |
-| Complete assembly showing how four-chip trays fit into the modular storage system for robotic handling. | Mounting base that attaches the storage system to the optics table. | Holder modules shown without trays or samples, illustrating how additional levels expand storage capacity. |
+| <img src="media/render2.png" alt="Optics-table mounting base" width="250"/> | <img src="media/render3.png" alt="Stacked holders without trays or samples" width="250"/> | <img src="media/render1.png" alt="Complete tray and holder assembly" width="250"/> |
+| Mounting base that attaches the storage system to the optics table. | Empty holder modules showing how additional levels expand storage capacity. | Complete assembly showing how four-chip trays fit into the modular storage system for robotic handling. |
 
 ---
 
