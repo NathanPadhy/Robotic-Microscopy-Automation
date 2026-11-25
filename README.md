@@ -72,7 +72,7 @@ Return to the Identified Storage Location
 
 ## Graphene Flake Detection
 
-Alongside the handling system, I have manually annotated **RGB microscopy images** to prepare a training dataset for an **Ultralytics YOLO11** vision model.
+Alongside the handling system, I have helped manually annotated RGB microscopy images to prepare a training dataset for an Ultralytics YOLO11 vision model.
 
 The annotations identify graphene flakes across different thickness categories and distinguish them from debris. The intended model will use these labels to detect candidate flakes and predict their annotated thickness categories from their appearance in microscope images.
 
