@@ -76,7 +76,7 @@ Alongside the handling system, I have manually annotated **RGB microscopy images
 
 The annotations identify graphene flakes across different thickness categories and distinguish them from debris. The intended model will use these labels to detect candidate flakes and predict their annotated thickness categories from their appearance in microscope images.
 
-This model is intended to support the selection of suitable flakes during microscope image review.
+This model is intended to identify suitable thin graphene flakes and estimate their positions within microscope images.
 ### 10x Model Annotated Image
 
 <p align="center">
