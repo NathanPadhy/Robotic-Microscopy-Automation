@@ -6,7 +6,7 @@ This project aims to automate that workflow from sample storage and microscope l
 
 This project is part of my research in the Lu Lab, led by Dr. Zhengguang Lu, in the Department of physics at Florida State University.
 
-The original concept for this microscopy automation project was proposed by Andre Quintero (FSU).
+The original concept for this microscopy automation project was proposed by Andre Quintero (FSU). This repository documents my contributions to the system’s design and development.
 
 ---
 
