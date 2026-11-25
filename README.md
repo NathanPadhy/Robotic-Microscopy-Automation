@@ -1,6 +1,8 @@
 # Robotic Microscopy & Automation for Quantum Materials Research
 
-Modular sample storage, robotic microscope loading, and vision-based graphene flake identification for graphene and hexagonal boron nitride (hBN) research.
+In the lab's current workflow, an operator loads one chip at a time onto the microscope, manually scans it for graphene flakes, identifies candidate flakes by eye, and records their locations. Repeating these steps for every chip makes sample screening tedious and labor-intensive.
+
+This project aims to automate that workflow from sample storage and microscope loading through scanning, flake identification, and location recording. The planned system combines modular four-chip trays, robotic sample handling, and computer vision to reduce repeated manual intervention.
 
 This project is part of my research in the Lu Lab, led by Dr. Zhengguang Lu, in the Department of physics at Florida State University.
 
